@@ -7,4 +7,3 @@ allow {
     input.request.http.method == "POST"
     input.request.http.path == "/active"
 }
-
