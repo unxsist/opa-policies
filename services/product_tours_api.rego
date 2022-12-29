@@ -4,6 +4,6 @@ default allow = false
 
 allow {
     print(input)
-    input.method == "POST"
-    input.parsed_path == ["active"]
+    input.request.http.method == "POST"
+    input.request.http.path == "/active"
 }
