@@ -1,3 +1,3 @@
-package services.product-tours-api
+package services.product_tours_api
 
 default allow = true
