@@ -4,5 +4,5 @@ default allow = false
 
 allow {
     input.method == "POST"
-    input.path = ["active"]
+    input.parsed_path == ["active"]
 }
